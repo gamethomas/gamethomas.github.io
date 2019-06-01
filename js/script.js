@@ -46,7 +46,7 @@ function jumpup(){
 }
 
 function controleren(){
-    if (coolheidsfactor >= 100){
+    if (coolheidsfactor == 100){
         var controleren = confirm("Wow, Jij bent echt te cool hiervoor :-), Laten we eens iets anders proberen");
         if(controleren){
         location.replace("https://websitethomas.github.io");
